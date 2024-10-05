@@ -1,0 +1,413 @@
+*{
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    background-color: #0a0909;
+    color: #fff;
+    font-size: 16px;
+    min-height: 100vh;
+}
+.nav-menu{
+    margin-left: auto;
+    margin-right: 10%;
+    
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nav-logo img {
+    width: 200px;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    background: #0a0909;
+    flex-wrap: wrap;
+}
+
+.nav-logo {
+    padding: 10px 30px;
+}
+
+ul.nav-items-contaoner {
+    display: flex;
+}
+
+li.nav-item {
+    list-style: none;
+    padding: 10px;
+    color: #fff;
+}
+
+a.nav-item-link {
+    color: #fff;
+    text-decoration: none;
+}
+.hero-banner-container{
+    background: url(../img/Cover.jpg);
+}
+.hero-banner-content {
+    margin-left: 15%
+}
+.hero-banner-container {
+    background: url(../img/Cover.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 16vw 0;
+}
+h1.hero-banner-title {
+    font-size: 50px;
+    font-weight: 800;
+}
+p.hero-banner-subtitle {
+    font-size: 20px;
+}
+.social-icon a {
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #ffbf35;
+    color: #ffbf35;
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    display: block;
+}
+
+.social-icon {
+    display: flex;
+}
+img.about-img {
+    max-width: 400px;
+}
+.about-container {
+    display: flex;
+    padding: 4% 5%;
+}
+
+.about-left {
+    width: 50%;
+    text-align: center;
+}
+
+.about-right {
+    width: 50%;
+    padding: 10px 60px 10px 10px;
+}
+h2.about-title {
+    font-size: 30px;
+    padding: 25px 0;
+    color: #ffbf35;
+}
+p#about {
+    padding-bottom: 20px;
+}
+ul.about-info li {
+    list-style: none;
+    padding: 5px;
+}
+a.about-btn {
+    border: 1px solid #ffbf35;
+    color: #ffbf35;
+    padding: 12px;
+    margin: 5px;
+    margin-top: 26px;
+    display: inline-block;
+    text-decoration: none;
+}
+.edu-exp-container {
+    display: flex;
+    padding: 0 8%;
+}
+
+h2.heading {
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 40px;
+    color: #ffbf35;
+}
+
+.edu-expe-icon.gradute-icon {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    background: #ffbf35;
+    padding: 12px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    border-radius: 0%;
+    border: 1px solid #ffbf35;
+    position: absolute;
+    left: -25px;
+    z-index: 222;
+    transition: all 0.50s ease 0s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edu-exp-wrap {
+    width: 100%;
+    margin-bottom: 40px;
+    border-left: 1px solid #ffbf35;
+    padding-bottom: 0px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.edu-text {
+    width: calc(100% - 50px);
+    position: relative;
+    margin-left: 50px;
+}
+.edu-text h2 {
+    padding: 10px 0;
+}
+.education {
+    padding-left: 4%;
+}
+.experience {
+    padding-left: 5%;
+} 
+section.site-section.section-skills {
+    padding: 2% 8%;
+}
+.skill-bar {
+    display: flex;
+}
+
+.skill h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+}
+
+.progress {
+    height: 15px;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #dfdfdf;
+    box-shadow: none;
+}
+
+.skill-left {
+    width: 50%;
+    padding: 20px;
+}
+.skill-right {
+    width: 50%;
+    padding: 20px;
+}
+.text-center h3 {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #ffbf35;
+}
+.progress-bar {
+    background-color: #ffbf35;
+    height: 100%;
+}
+
+.skill {
+    padding-bottom: 40px;
+}
+section#contact {
+    padding: 0 8%;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.contact-field {
+    display: block;
+}
+
+.contact-field form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.input-field {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.name-field {
+    width: 50%;
+    padding-right: 10px;
+}
+
+input.form-control {
+    width: 100%;
+    padding: 15px;
+}
+
+.emali-field {
+    width: 50%;
+    padding-left: 10px;
+}
+
+textarea#mesaage {
+    width: 100%;
+    height: 120px;
+    padding: 20px;
+}
+
+.text-area {
+    padding-bottom: 25px;
+}
+button.btn.btn-border {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 12px 35px;
+    background: #ffbf35;
+    font-weight: 700;
+    border-color: #ffbf35;
+}
+.footer-logo img {
+    width: 250px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .container {
+    padding: 10px;
+    border-top: 1px solid #fff;
+    margin-top: 20px;
+}
+.footer-content .social-icon {
+    padding-right: 30px;
+}
+.protfolio-item-top {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.protfolio-item-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.portfolio-item img {
+    width: 360px;
+    height: 261px;
+}
+.portfolio-item {
+    padding: 15px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+section#portfolio {
+    margin: 0 5%;
+}
+@media (max-width: 980px) {
+    .hero-banner-content {
+        margin-left: 10%;
+    }
+    .about-right {
+        padding: 10px 10px 10px 55px;
+    }
+    .protfolio-item-bottom {
+        gap: 0;
+    }
+    
+    .protfolio-item-top {
+        gap: 0;
+    }
+
+}
+@media (max-width: 980px) and (min-width: 768px){
+    .portfolio-item img {
+        width: 233px;
+        height: 220px;
+    }
+}
+@media (max-width: 767px) {
+    .nav-menu {
+        margin-right: 8%;
+    }
+    .hero-banner-content {
+        margin-left: 5%;
+    }
+    h1.hero-banner-title {
+        font-size: 28px;
+        font-weight: 800;
+    }
+    .about-container {
+        display: block;
+    }
+    .about-right {
+        width: 100%;
+        padding: 10px;
+    }
+    .edu-exp-container {
+        display: block;
+    }
+    .skill-left {
+        width: 100%;
+    }
+    .skill-right {
+        width: 100%;
+    }
+    .skill-bar {
+        display: block;
+    }
+    .input-field {
+        display: block;
+    }
+    
+    .name-field {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 25px;
+    }
+    .emali-field {
+        width: 100%;
+        padding-left: 0;
+    }
+    .contact-field form {
+        width: 100%;
+        
+    }
+    .footer-content {
+        display: block;
+    }
+    .footer-logo {
+        text-align: center;
+    }
+    .footer-content .social-icon {
+        text-align: center;
+        margin-left: 20%;
+    }
+    .protfolio-item-top {
+        display: block;
+    }
+    
+    .protfolio-item-bottom {
+        display: block;
+    }
+}
+@media (min-width: 1700px) {
+    .protfolio-item-top {
+        gap: 50px;
+    }
+    .protfolio-item-bottom {
+        gap: 50px;
+    }
+}
